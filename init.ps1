@@ -50,5 +50,8 @@ Remove-Item .\paintdotnet.zip
 Remove-Item .\paintdotnet -Recurse
 cd $pwd
 
+# Install Java Development Kit
+winget install --id Oracle.JDK.19 -e --source winget
+
 # Install Minecraft
 winget install --id Mojang.MinecraftLauncher -e --source winget
