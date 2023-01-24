@@ -32,3 +32,6 @@ git clone https://github.com/Rem0o/FanControl.Releases.git FanControl
 cd FanControl
 Start-Process .\Updater.exe -Wait
 cd $pwd
+
+# Install Tidal
+winget install --id TIDALMusicAS.TIDAL -e --source winget
