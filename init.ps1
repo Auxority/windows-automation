@@ -55,3 +55,6 @@ winget install --id Oracle.JDK.19 -e --source winget
 
 # Install Minecraft
 winget install --id Mojang.MinecraftLauncher -e --source winget
+
+# Install WhatsApp Desktop
+winget install --id WhatsApp.WhatsApp -e --source winget
