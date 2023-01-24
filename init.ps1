@@ -49,3 +49,6 @@ Start-Process .\paintdotnet\paint.net.$pdnVersion.winmsi.x64.msi -Wait
 Remove-Item .\paintdotnet.zip
 Remove-Item .\paintdotnet -Recurse
 cd $pwd
+
+# Install Minecraft
+winget install --id Mojang.MinecraftLauncher -e --source winget
