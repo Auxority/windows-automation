@@ -1,3 +1,6 @@
+# Save the current directory
+$pwd = Get-Location
+
 # Install Geforce Experience
 winget install --id Nvidia.GeForceExperience -e --source winget
 
@@ -25,8 +28,7 @@ Remove-Item .\wargaming-installer.exe
 winget install --id Valve.Steam -e --source winget
 
 # Install FanControl
-git clone https://github.com/Rem0o/FanControl.Releases.git fancontrol
-cd fancontrol
+git clone https://github.com/Rem0o/FanControl.Releases.git FanControl
+cd FanControl
 Start-Process .\Updater.exe -Wait
-cd ..
-Remove-Item -Recurse -Force fancontrol
+cd $pwd
