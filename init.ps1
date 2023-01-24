@@ -23,3 +23,10 @@ Remove-Item .\wargaming-installer.exe
 
 # Install Steam
 winget install --id Valve.Steam -e --source winget
+
+# Install FanControl
+git clone https://github.com/Rem0o/FanControl.Releases.git fancontrol
+cd fancontrol
+Start-Process .\Updater.exe -Wait
+cd ..
+Remove-Item -Recurse -Force fancontrol
