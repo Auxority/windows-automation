@@ -14,7 +14,6 @@ $WingetPrograms = @(
     'Oracle.JDK.19',
     'Mojang.MinecraftLauncher',
     'WhatsApp.WhatsApp',
-    'Corsair.iCUE.4'
 )
 
 # Install all the programs
