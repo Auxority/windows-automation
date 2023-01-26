@@ -14,6 +14,7 @@ $WingetPrograms = @(
     'Oracle.JDK.19',
     'TIDALMusicAS.TIDAL',
     'Valve.Steam',
+    'VideoLAN.VLC',
     'WhatsApp.WhatsApp',
 )
 
