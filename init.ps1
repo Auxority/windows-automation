@@ -2,17 +2,18 @@
 $pwd = Get-Location
 
 $WingetPrograms = @(
-    'Nvidia.GeForceExperience',
-    'Microsoft.PowerToys',
-    'Microsoft.VisualStudioCode',
-    'Git.Git',
     'Brave.Brave',
     'Discord.Discord',
-    'OpenJS.NodeJS',
-    'Valve.Steam',
-    'TIDALMusicAS.TIDAL',
-    'Oracle.JDK.19',
+    'Git.Git',
+    'Microsoft.PowerToys',
+    'Microsoft.VisualStudioCode',
     'Mojang.MinecraftLauncher',
+    'Mozilla.Thunderbird',
+    'Nvidia.GeForceExperience',
+    'OpenJS.NodeJS',
+    'Oracle.JDK.19',
+    'TIDALMusicAS.TIDAL',
+    'Valve.Steam',
     'WhatsApp.WhatsApp',
 )
 
